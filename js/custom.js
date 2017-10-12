@@ -1,4 +1,6 @@
+
 $(function() {
+
 	window.scrollReveal = new scrollReveal();
 	"use strict";
 	
@@ -10,11 +12,6 @@ $(function() {
 	// Backstretchs
 	$("#header").backstretch("images/3.png");
 	$("#services").backstretch("images/3.png");
-	
-	// Countdown
-	$('.countdown').downCount({
-		date: '12/12/2014 12:00:00',
-		offset: +10
-	});			
+				
     
 });
