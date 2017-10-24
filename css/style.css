@@ -1,8 +1,30 @@
-/* See Soon - Coming Soon/Under Construction Responsive Template
-Author: EGrappler.com
-Tags: Dark, coming soon, under construction, black, one column
-*/
+body, html{
+	background:#202020;
+	color:#fff;
+	height: 100%;
+	font:18px/28px 'Raleway', sans-serif;
+	font-weight:300;
+	padding: 0px;
+}
 
+#header {
+	height:100;
+	padding:0px;
+}
+
+#nav{
+	margin-bottom:0px;
+	}
+
+.affix {
+      top: 0;
+      width: 100%;
+}
+
+.header-overlay{
+	background:rgba(0, 0, 0, 0.6);
+	height: 100%;		
+}
 a#more {
 	position: absolute;
 	
@@ -46,129 +68,7 @@ a#more span.headerText p{
 	width:298px;
 	margin:0px;
 }
-
-a#more span.headerText span.play{
-	width:80px; height:80px;
-	background:url('../images/play.png') center no-repeat;
-	border-left:solid 1px #fc7980;
-	float: right;
-}
-	
-	
-	#ghost{
-		width: 72px;
-		height: 72px;
-		-moz-border-radius: 36px;
-		-webkit-border-radius: 36px;
-		border-radius: 50px;
-		background: blue;
-	}
-	
-	#ghost_body{
-		width: 72px;
-		height: 40px;
-		background: blue;
-		position: relative;
-		bottom: 40px;
-		border-radius: 5px;
 		
-	}
-	
-	#ghost_bottom1{
-		width: 0;
-		height: 0;
-		border-top: 24px solid blue;
-		border-right: 14px solid transparent;
-		position: relative;
-		bottom: 44px;
-		left: 0;
-	}
-	
-	#ghost_bottom2{
-		width: 0;
-		height: 0;
-		border-top: 24px solid blue;
-		border-right: 14px solid transparent;
-		border-left: 14px solid transparent;
-		border-radius: 5px 5px 60px 30px;
-		position: relative;
-		bottom: 68px;
-		left: 10px;
-	}
-	
-	#ghost_bottom3{
-		width: 0;
-		height: 0;
-		border-top: 24px solid blue;
-		border-right: 14px solid transparent;
-		border-left: 14px solid transparent;
-		border-radius: 5px 5px 60px 30px;
-		position: relative;
-		bottom: 92px;
-		left: 34px;
-	}
-	
-	#ghost_bottom4{
-		width: 0;
-		height: 0;
-		border-top: 24px solid blue;
-		border-left: 14px solid transparent;
-		position: relative;
-		bottom: 116px;
-		left: 58px;
-	}
-	
-	#left_eye, #right_eye{
-		width: 18px;
-		height: 18px;
-		border-radius: 9px;
-		background: white;
-	}
-	
-	#left_eye{
-		position: relative;
-		bottom: 180px;
-		left: 20px;
-	}
-	
-	#right_eye{
-		position: relative;
-		bottom: 198px;
-		left: 45px;
-	}
-	
-	#left_pupil, #right_pupil{
-		width: 10px;
-		height: 10px;
-		border-radius: 5px;
-		background: black;
-	}
-	
-	#left_pupil{
-		position: relative;
-		bottom: 210px;
-		left: 30px;
-	}
-	
-	#right_pupil{
-		position: relative;
-		bottom: 220px;
-		left: 55px;
-	}
-	
-	
-
-	
-
-
-body, html{
-	background:#202020;
-	color:#fff;
-	height: 100%;
-	font:18px/28px 'Raleway', sans-serif;
-	font-weight:300;
-	padding: 0px;
-}
 
 
 a, a:hover, a:focus{
@@ -178,30 +78,6 @@ a, a:hover, a:focus{
 
 a:focus{
 	outline:none;
-}
-
-h1, h2, h3, h4, h5, h6{
-	font-family:'Coustard', sans-serif;
-	margin:0;
-	font-weight:300;
-}
-h1{
-	font-size:72px;
-}
-h2{
-	font-size:40px;
-}
-h3{
-	font-size:36px;
-}
-h4{
-	font-size:30px;
-}
-h5{
-	font-size:24px;
-}
-h6{
-	font-size:18px;
 }
 
 
@@ -216,30 +92,15 @@ h6{
 }
 
 #header{
-	height: 100%;
+	min-height: 100%;
+	width: 100%;
 }
 
 .header-overlay{
-	background:rgba(0, 0, 0, 0.6);
-	padding:30px 0;	
-	height: 100%;		
-}
-	 
-.hexagon {
-  position: absolute;
-  height: 30px;
-  bottom: 90px;
-  left: 50px;
+	background:rgba(0, 0, 0, 0.6);	
+	min-height: 100%;		
 }
 
-
-#header .main-head h2, #header .main-head h4{
-	font-weight:300;
-}
-
-#header .main-head h4{
-	line-height:40px;
-}
 	
 .main-head{
 	text-align:center;
@@ -249,12 +110,5 @@ h6{
 	bottom: 0;
 }
 
-.main-head h2{
-	padding:0 0 20px;	
-}
 
-.main-head p{
-	font-size:24px;
-	line-height:36px;
-}
 		
